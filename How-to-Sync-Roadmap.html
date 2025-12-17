@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>How to Sync Your GitHub Roadmap</title>
+    <style>
+        body {
+            font-family: Calibri, Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 {
+            color: #0366d6;
+            border-bottom: 3px solid #0366d6;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #24292e;
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #0366d6;
+        }
+        code {
+            background: #f6f8fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+        pre {
+            background: #1e1e1e;
+            color: #d4d4d4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background: #0366d6;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+        .success {
+            background: #d4edda;
+            padding: 15px;
+            border-left: 4px solid #28a745;
+            margin: 15px 0;
+        }
+        .info {
+            background: #e7f3ff;
+            padding: 15px;
+            border-left: 4px solid #0366d6;
+            margin: 15px 0;
+        }
+        a {
+            color: #0366d6;
+        }
+    </style>
+</head>
+<body>
+
+<h1>🗺️ PSC Conformance Delivery Process Plan</h1>
+<h2>How to Refresh Your GitHub Roadmap</h2>
+
+<hr>
+
+<h2>📁 Important Links & Files</h2>
+<table>
+    <tr>
+        <th>Item</th>
+        <th>Location / URL</th>
+    </tr>
+    <tr>
+        <td><strong>📊 Google Sheet (Source)</strong></td>
+        <td><a href="https://docs.google.com/spreadsheets/d/1UQjIuiwo-MX3VhvSWn_yfuA_SQbv_s_mfFZeuBYAbhs/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1UQjIuiwo-MX3VhvSWn_yfuA_SQbv_s_mfFZeuBYAbhs</a></td>
+    </tr>
+    <tr>
+        <td><strong>📄 Local Excel File</strong></td>
+        <td><code>C:\Users\pransriv\psc-project-dashboard\project-plan.xlsx</code></td>
+    </tr>
+    <tr>
+        <td><strong>🔄 Sync Script</strong></td>
+        <td><code>C:\Users\pransriv\psc-project-dashboard\sync.bat</code></td>
+    </tr>
+    <tr>
+        <td><strong>🗺️ GitHub Roadmap</strong></td>
+        <td><a href="https://github.com/users/Pranshul01051987/projects/1">https://github.com/users/Pranshul01051987/projects/1</a></td>
+    </tr>
+    <tr>
+        <td><strong>📋 GitHub Issues</strong></td>
+        <td><a href="https://github.com/Pranshul01051987/Project-Plan/issues">https://github.com/Pranshul01051987/Project-Plan/issues</a></td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>✨ Method 1: One-Click Sync (Recommended)</h2>
+
+<h3>Step 1: Update Your Google Sheet</h3>
+<ol>
+    <li>Open the Google Sheet: <a href="https://docs.google.com/spreadsheets/d/1UQjIuiwo-MX3VhvSWn_yfuA_SQbv_s_mfFZeuBYAbhs/edit?usp=sharing">Click here to open</a></li>
+    <li>Make your changes (add rows, update dates, change status, etc.)</li>
+</ol>
+
+<h3>Step 2: Download as Excel</h3>
+<ol>
+    <li>In Google Sheets, go to: <strong>File → Download → Microsoft Excel (.xlsx)</strong></li>
+    <li>Save the file to: <code>C:\Users\pransriv\psc-project-dashboard\</code></li>
+    <li>Rename it to: <strong>project-plan.xlsx</strong></li>
+    <li>Replace the existing file if prompted</li>
+</ol>
+
+<h3>Step 3: Run the Sync</h3>
+<ol>
+    <li>Open File Explorer</li>
+    <li>Navigate to: <code>C:\Users\pransriv\psc-project-dashboard</code></li>
+    <li>Double-click: <strong>sync.bat</strong></li>
+    <li>Wait for the sync to complete (you'll see a success message)</li>
+</ol>
+
+<h3>Step 4: View Your Updated Roadmap</h3>
+<ol>
+    <li>Open your browser</li>
+    <li>Go to: <a href="https://github.com/users/Pranshul01051987/projects/1">https://github.com/users/Pranshul01051987/projects/1</a></li>
+    <li>Your roadmap is now updated!</li>
+</ol>
+
+<div class="success">
+    <strong>✅ That's it!</strong> Your GitHub Roadmap is now refreshed with your latest Google Sheet data.
+</div>
+
+<hr>
+
+<h2>💻 Method 2: PowerShell Commands</h2>
+
+<p>If the batch file doesn't work, use these manual commands:</p>
+
+<h3>Step 1: Open PowerShell</h3>
+<ul>
+    <li>Press <code>Win + R</code></li>
+    <li>Type <code>powershell</code></li>
+    <li>Press Enter</li>
+</ul>
+
+<h3>Step 2: Run These Commands</h3>
+<p>Copy and paste each command, pressing Enter after each:</p>
+
+<pre>cd C:\Users\pransriv\psc-project-dashboard</pre>
+
+<pre>$env:GITHUB_TOKEN = "YOUR_GITHUB_TOKEN_HERE"</pre>
+
+<pre>node sync-local.cjs</pre>
+
+<hr>
+
+<h2>📊 What Gets Synced</h2>
+
+<table>
+    <tr>
+        <th>Google Sheet Column</th>
+        <th>Where It Goes in GitHub</th>
+    </tr>
+    <tr>
+        <td>Phase</td>
+        <td>Issue title + Label</td>
+    </tr>
+    <tr>
+        <td>Activity</td>
+        <td>Issue title</td>
+    </tr>
+    <tr>
+        <td>Task Detail</td>
+        <td>Issue body</td>
+    </tr>
+    <tr>
+        <td>PT1 Principle</td>
+        <td>Issue body</td>
+    </tr>
+    <tr>
+        <td>Deliverable</td>
+        <td>Issue body</td>
+    </tr>
+    <tr>
+        <td>Owner</td>
+        <td>Issue body</td>
+    </tr>
+    <tr>
+        <td>Quarter</td>
+        <td>Issue body + Label</td>
+    </tr>
+    <tr>
+        <td>Start Date</td>
+        <td>Issue body + Roadmap timeline bar</td>
+    </tr>
+    <tr>
+        <td>End Date</td>
+        <td>Issue body + Roadmap timeline bar</td>
+    </tr>
+    <tr>
+        <td>Status</td>
+        <td>Issue body + Label</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>🔄 What Happens When You Sync</h2>
+
+<table>
+    <tr>
+        <th>Action in Google Sheet</th>
+        <th>Result in GitHub</th>
+    </tr>
+    <tr>
+        <td>Add a new row</td>
+        <td>Creates a new issue and adds it to the roadmap</td>
+    </tr>
+    <tr>
+        <td>Change text</td>
+        <td>Updates the issue body</td>
+    </tr>
+    <tr>
+        <td>Change dates</td>
+        <td>Moves the timeline bar on the roadmap</td>
+    </tr>
+    <tr>
+        <td>Change status</td>
+        <td>Updates the status label (Started/Not Started)</td>
+    </tr>
+    <tr>
+        <td>Delete a row</td>
+        <td>Issue remains (manual deletion required in GitHub)</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>🔧 Troubleshooting</h2>
+
+<div class="highlight">
+    <strong>"node is not recognized"</strong><br>
+    Node.js is not installed. Download from: <a href="https://nodejs.org/">https://nodejs.org/</a>
+</div>
+
+<div class="highlight">
+    <strong>"File not found" error</strong><br>
+    Make sure your Excel file is saved as <code>project-plan.xlsx</code> in the correct folder:<br>
+    <code>C:\Users\pransriv\psc-project-dashboard\project-plan.xlsx</code>
+</div>
+
+<div class="highlight">
+    <strong>"Token expired" error</strong><br>
+    Your GitHub token may have expired. Create a new one at: <a href="https://github.com/settings/tokens">https://github.com/settings/tokens</a><br>
+    Make sure to select <strong>repo</strong> and <strong>project</strong> scopes.
+</div>
+
+<div class="highlight">
+    <strong>Changes not showing on roadmap</strong><br>
+    Refresh the GitHub page (Ctrl + F5) and make sure you're viewing the correct project view.
+</div>
+
+<hr>
+
+<h2>👥 Project Access</h2>
+
+<table>
+    <tr>
+        <th>User</th>
+        <th>Role</th>
+    </tr>
+    <tr>
+        <td>Pranshul01051987</td>
+        <td>Owner</td>
+    </tr>
+    <tr>
+        <td>jcomaske</td>
+        <td>Admin</td>
+    </tr>
+    <tr>
+        <td>Shmanzoor (Shehnila Manzoor)</td>
+        <td>Admin</td>
+    </tr>
+</table>
+
+<hr>
+
+<h2>📋 Quick Reference Card</h2>
+
+<div class="info">
+    <strong>Google Sheet:</strong><br>
+    <a href="https://docs.google.com/spreadsheets/d/1UQjIuiwo-MX3VhvSWn_yfuA_SQbv_s_mfFZeuBYAbhs/edit?usp=sharing">https://docs.google.com/spreadsheets/d/1UQjIuiwo-MX3VhvSWn_yfuA_SQbv_s_mfFZeuBYAbhs</a>
+    <br><br>
+    <strong>GitHub Roadmap:</strong><br>
+    <a href="https://github.com/users/Pranshul01051987/projects/1">https://github.com/users/Pranshul01051987/projects/1</a>
+    <br><br>
+    <strong>Sync Command:</strong><br>
+    Double-click <code>C:\Users\pransriv\psc-project-dashboard\sync.bat</code>
+</div>
+
+<hr>
+
+<p><em>Document created: December 16, 2025</em></p>
+
+</body>
+</html>
